@@ -36,6 +36,8 @@ public String pigLatin(String sWord)
 		return "ERROR!";
 	}
 	if(findFirstVowel(sWord)==0)
+		//uncreachable code line 38
+	     
 	{
 		return sWord + "way";
 	}
